@@ -220,14 +220,23 @@ a:visited {
 }
 
 @media screen and (max-width:678px) {
-  body{
-    display: flex;
-    flex-direction: column;
-  }
-  .sidebar{
-    width: 100vw;
-  }
-  #map{
-    width:100vw;
-  }
+
+ .sidebar{
+ display: flex;
+ height: 50%;
+ flex-basis: 60%;
+ overflow:scroll;
+ flex-direction: column;
+ }
+
+ body{
+  flex-direction: column;
+ }
+ #map{
+  display: block;
+ }
+
+
+
 }
+
