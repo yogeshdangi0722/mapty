@@ -218,3 +218,16 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
+
+@media screen and (max-width:678px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar{
+    width: 100vw;
+  }
+  #map{
+    width:100vw;
+  }
+}
